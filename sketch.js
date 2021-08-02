@@ -14,12 +14,12 @@ function preload()
 }
 
 function setup() {
-	createCanvas(800, 700);
+	createCanvas(800, 1400);
   rectMode(CENTER)
 
 	engine = Engine.create();
 	world = engine.world;
-  dustbinObj=new Dustbin(600,650);
+        dustbinObj=new Dustbin(600,650);
 	paperObject=new paper(200,450,40);
 	groundObject=new Ground(width/2,670,width,20);
 	//Create the Bodies Here.
